@@ -1,0 +1,12 @@
+[package]
+name = "gleam_derive"
+version = "0.0.1"
+authors = ["erikj@jki.re"]
+
+[lib]
+path = "lib.rs"
+proc-macro = true
+
+[dependencies]
+syn = "0.11"
+quote = "0.3"
