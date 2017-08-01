@@ -1,0 +1,24 @@
+[package]
+authors = ["Erik Johnston <erikj@jki.re>"]
+name = "gleam"
+version = "0.1.0"
+
+[dependencies]
+anymap = "0.12.1"
+futures = "0.1.7"
+hyper = "0.11"
+lazy_static = "0.2.8"
+linear-map = "1.1.0"
+route-recognizer = "0.1.12"
+slog = "2.0.6"
+slog-async = "2.0.1"
+slog-stdlog = "3.0.2"
+slog-term = "2.0.2"
+tokio-core = "0.1.8"
+tokio-proto = "0.1.1"
+url = "1.5.1"
+
+[dependencies.gleam_derive]
+path = "gleam_derive"
+
+[workspace]
